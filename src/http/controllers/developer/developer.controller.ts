@@ -3,7 +3,7 @@ import { CreateDeveloperUseCase } from '../../../core/usecases/create-developer-
 import { CreateDeveloperDto } from './dto/create-developer.dto';
 
 @Controller('developer')
-export class DeveloperControllerController {
+export class DeveloperController {
   constructor(
     private readonly createDeveloperUseCase: CreateDeveloperUseCase,
   ) {}
